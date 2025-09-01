@@ -1,7 +1,6 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  padding: 0px;
+  margin: 0px;
   text-align: center;
 }
 
@@ -24,15 +23,16 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 .headerBackground{
-  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR8JJfJ1aSkPxpYMn4PUzAN5l0ootTRzX2HBKLME-qZVHjJSkJh);
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/393/570/small/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 20vh;
 }
 
 
 .contenedor {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
 }

@@ -1,17 +1,17 @@
-import { useState } from 'react'
 import './App.css'
 import Hamburgesas from './hamburgesas'
-import Header from './component/header'
+import Header from './component/header/header'
+import ProductsGrid from './component/producto/ProductsGrid';
+import Props from '../clase 4/props'
 
 function App() {
 
-  let curso = "Curso de React JS"
-  let alumnos = 50
-
   return(
     <>
-      <Header/>
-      <Hamburgesas />
+      <Header/>   
+      <Hamburgesas/>
+      <ProductsGrid/>
+      <Props academia={"Cooderhouser"} curso={"React JS"} duracion={12} />
     </>
   ) 
 }

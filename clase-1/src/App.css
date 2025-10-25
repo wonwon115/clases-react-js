@@ -4,79 +4,11 @@
   text-align: center;
 }
 
-.logo {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 1000;
-}
-
-.logo img {
-  width: 100px;
-  height: auto;
-  display: block;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-.headerBackground{
-  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/393/570/small/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 20vh;
-}
-
 
 .contenedor {
   margin: 0 auto;
   padding: 2rem;
 }
-
-.row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
-
-.card {
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  overflow: hidden;
-}
-
-.card:hover {
-  transform: translateY(-4px);
-}
-
-.card-img-top {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-.card-body {
-  padding: 1.5rem;
-}
-
-.card-title {
-  margin: 0 0 0.5rem;
-  font-size: 1.25rem;
-  color: #333;
-}
-
-.card-text {
-  margin: 0;
-  color: #666;
-  line-height: 1.5;
-}
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

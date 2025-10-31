@@ -11,7 +11,7 @@ function App() {
       <Header/>   
       <Hamburgesas/>
       <ProductsGrid/>
-      <Props academia={"Cooderhouser"} curso={"React JS"} duracion={12} />
+      <Props academia={"Cooderhouser"} curso={"React JS"} duracion={"2 Años "} />
     </>
   ) 
 }

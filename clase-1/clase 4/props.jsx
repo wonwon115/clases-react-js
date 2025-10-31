@@ -28,6 +28,7 @@ const props =({ academia, curso, duracion}) => {
                 <h1>Curso {academia}</h1>
                 <h3>Clase 4 {curso}</h3>
                 <p>Duracion: {duracion} meses</p>
+                <ParentComponet texto="Hola Mundo"/>
             </div>
         </div>
     </div>

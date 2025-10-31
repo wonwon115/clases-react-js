@@ -14,7 +14,7 @@
     </div>
 )
 } */
-
+// obcion #2
 const props =({ academia, curso, duracion}) => {
     /* 
     let bebida = {id:1, nombre"Coca-cola"};

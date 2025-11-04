@@ -1,3 +1,4 @@
+import ParentComponent from './parentComponent';
 
 // opcion N°1 recibimos un objeto 
 /* const props = (props) => {
@@ -15,6 +16,7 @@
 )
 } */
 // obcion #2
+
 const props =({ academia, curso, duracion}) => {
     /* 
     let bebida = {id:1, nombre"Coca-cola"};
@@ -28,7 +30,7 @@ const props =({ academia, curso, duracion}) => {
                 <h1>Curso {academia}</h1>
                 <h3>Clase 4 {curso}</h3>
                 <p>Duracion: {duracion} meses</p>
-                <ParentComponet texto="Hola Mundo"/>
+                <ParentComponent texto="Hola Mundo"/>
             </div>
         </div>
     </div>

@@ -1,4 +1,4 @@
-import ParentComponent from './parentComponent';
+import ParentComponent from "./ParentComponent"
 
 // opcion N°1 recibimos un objeto 
 /* const props = (props) => {
